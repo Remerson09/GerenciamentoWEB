@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Livraria</title>
+</head>
+<body>
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Livraria</h1>
+    <form class="mb-4">
+        <div class="row g-3">
+            <div class="col-md-3">
+                <input type="text" id="titulo" class="form-control" placeholder="Título">
+            </div>
+            <div class="col-md-3">
+                <input type="text" id="autor" class="form-control" placeholder="Autor">
+            </div>
+            <div class="col-md-2">
+                <input type="text" id="ano" class="form-control" placeholder="Ano">
+            </div>
+            <div class="col-md-2">
+                <input type="text" id="preco" class="form-control" placeholder="Preço">
+            </div>
+            <div class="col-md-2">
+                <input type="button" id="botao" class="btn btn-primary w-100" value="Cadastrar">
+            </div>
+        </div>
+    </form>
+    <hr>
+    <table class="table table-striped table-hover">
+        <thead class="table-dark">
+        <tr>
+            <th>Título</th>
+            <th>Autor</th>
+            <th>Ano</th>
+            <th>Preço</th>
+        </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+<script src="codigo.js"></script>
+</body>
+</html>
